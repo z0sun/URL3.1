@@ -14,4 +14,4 @@ Demonstrate your ability to configure a fully automated pipeline by automaticall
 
 
 ## Deployment Document Link:
--  Link to instructions: https://github.com/kura-labs-org/kuralabs_deployment_2/blob/main/Deployment-2_Assignment.pdf
+-  Link to instructions: https://github.com/kura-labs-org/c4_deployment-3/blob/main/CH4%20Deployment-3_Assignment.pdf
