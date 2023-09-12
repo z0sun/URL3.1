@@ -7,11 +7,12 @@
     - Install "python3.10-venv", "python-pip", "unzip", "AWS CLI"
 2. Create a multibranch pipeline and run the build for the application
 3. Follow the install AWS EB CLI instructions
-4. Then, add this line to your Jenkins file and rerun your build: `stage (‘Deploy’) {
+4. Then, add this stage to your Jenkins file and rerun your build: `stage (‘Deploy’) {
 steps {
 sh ‘eb deploy"
 }
 }
 `
-5. **IF** your application redeployed successfully, follow the webhook instructions
-6. **BONUS:** Once you've configured your webhook, change the background or some text in the application. **HINT** Look into the HTML file and ask chatGPT 
+5. **IF** your application redeployed successfully, what did you notice?
+6. **BONUS:** Once you've configured your webhook, change the background or some text in the application **HINT** Look into the HTML file and ask chatGPT
+7. Did the application redeploy? 
