@@ -14,5 +14,6 @@ sh 'eb deploy'
 }
 `
 5. **IF** your application redeployed successfully, what did you notice?
-6. **BONUS:** Once you've configured your webhook, change the background or some text in the application **HINT** Look into the HTML file and ask chatGPT
-7. Did the application redeploy? 
+6. Configure a [Webhook](https://scribehow.com/shared/Setting_up_a_GitHub_webhook_for_Jenkins_deployment__OCRQGNvARfWF4clyeFcsGQ)
+7. **BONUS:** Once you've configured your webhook, change the background or some text in the application **HINT** Look into the HTML file and ask chatGPT
+8. Did the application redeploy? 
