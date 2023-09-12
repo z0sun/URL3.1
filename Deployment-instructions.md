@@ -3,8 +3,15 @@
 </p>
 
 ## Deployment Instructions:
-1. Log into the instructor's Jenkins server
-2. Create and run a Jenkins build for the application (Review Jenkins setup lesson video)
-3. Make sure you include your name on your build's name (first name_letter of last name)
-4. Observe the pipeline stages via the console output and document what occurred
-5. **IF** the pipeline is successful, download the application files from your repository and proceed to the next step: https://scribehow.com/shared/How_to_Create_and_Deploy_a_Python_URL_Shortener_on_AWS_Elastic_Beanstalk__MS9pB8lfRaGFiKAq2FU-cw
+1. Create your own Jenkins Server and install the following on the server:
+    - Install "python3.10-venv", "python-pip", "unzip", "AWS CLI"
+2. Create a multibranch pipeline and run the build for the application
+3. Follow the install AWS EB CLI instructions
+4. Then, add this line to your Jenkins file and rerun your build: `stage (‘Deploy’) {
+steps {
+Sh ‘eb deploy "Your ENVIRONMENT name"
+}
+}
+`
+5. **IF** your application redeployed successfully, follow the webhook instructions
+6. **BONUS:** Once you've configured your webhook, change the background or some text in the application. **HINT** Look into the HTML file and ask chatGPT 
