@@ -28,6 +28,6 @@ pipeline {
        
       }
     }
-   
+   stage ('Deploy') { steps { sh 'eb deploy' } } 
   }
  }
