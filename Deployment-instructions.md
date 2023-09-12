@@ -9,7 +9,7 @@
 3. Follow the install AWS EB CLI instructions
 4. Then, add this line to your Jenkins file and rerun your build: `stage (‘Deploy’) {
 steps {
-sh ‘eb deploy /var/lib/jenkins/workspace/"Your ENVIRONMENT name"
+sh ‘eb deploy"
 }
 }
 `
