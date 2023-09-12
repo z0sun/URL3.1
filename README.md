@@ -16,4 +16,4 @@ Demonstrate your ability to run a Jenkins build and manually deploy to Elastic B
 - Lastly, save your documentation and diagram into your repository. Submit your repository link to the LMS
 
 ## Deployment instructions Link:
--  Link to instructions: https://github.com/kura-labs-org/c4_deployment-1/blob/main/Deployment-instructions.md
+-  Link to instructions: https://github.com/kura-labs-org/c4_deployment-3/blob/main/Deployment-instructions.md
