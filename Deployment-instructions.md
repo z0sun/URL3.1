@@ -4,7 +4,7 @@
 
 ## Deployment Instructions:
 1. Create your own Jenkins Server and install the following on the server:
-    - Install "python3.10-venv", "python-pip", "unzip", "[AWS CLI](https://scribehow.com/shared/How_to_Install_AWS_CLI__1MnhqmpcRxupkx_F-EcreQ)"
+    - Install "python3.10-venv", "python-pip", "unzip"
 2. Create a multibranch pipeline and run the build for the application
 3. Follow the install [AWS EB CLI](https://scribehow.com/shared/How_to_install_AWS_EB_CLI__J6eBRB9FQl2fGenfUVemlA) instructions
 4. Then, add this stage to your Jenkins file and rerun your build: `stage ('Deploy') {
