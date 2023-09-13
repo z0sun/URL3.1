@@ -13,6 +13,13 @@ Demonstrate your ability to run and deploy to fully automated Elastic Beanstalk 
 
 - Document your progress in a .md file in your repository. Also, document any issues you may run into and what you did to fix them.
 
+- Make sure your documentation includes these sections:
+  - Purpose
+  - Issues
+  - Steps
+  - System Diagram
+  - Optimization (How would make this deployment more efficient)
+
 - Lastly, save your documentation and diagram into your repository. Submit your repository link to the LMS
 
 ## Deployment instructions Link:
