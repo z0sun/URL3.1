@@ -1,9 +1,9 @@
 <p align="center">
 <img src="https://github.com/kura-labs-org/kuralabs_deployment_1/blob/main/Kuralogo.png">
 </p>
-<h1 align="center">C4_deployment-1<h1> 
+<h1 align="center">C4_deployment-3<h1> 
 
-Demonstrate your ability to run a Jenkins build and manually deploy to Elastic Beanstalk.
+Demonstrate your ability to run a Jenkins build and deploy to Elastic Beanstalk.
 
 - Create a separate GitHub repository for this application 
 
