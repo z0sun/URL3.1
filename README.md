@@ -3,7 +3,7 @@
 </p>
 <h1 align="center">C4_deployment-3<h1> 
 
-Demonstrate your ability to run and deploy to fully automated Elastic Beanstalk deployment.
+Demonstrate your ability deploy a fully automated Elastic Beanstalk deployment.
 
 - Create a separate GitHub repository for this application 
 
