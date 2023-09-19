@@ -6,7 +6,7 @@ from werkzeug.utils import secure_filename
 application = app = Flask(__name__)
 app.secret_key = 'h432hi5ohi3h5i5hi3o2hi'
 
-@app.routes('/')
+@app.route('/')
 def home():
     return render_template('home.html', codes=session.keys())
 
