@@ -3,6 +3,6 @@
 </p>
 <h1 align="center">C4_deployment-3.1<h1> 
 
-Demonstrate your ability rollback an application.
+Demonstrate your ability to rollback an application.
 
 - Follow the in-class instructions  
