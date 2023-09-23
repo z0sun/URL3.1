@@ -1,4 +1,4 @@
-pipeline {
+ pipeline {
   agent any
    stages {
     stage ('Build') {
@@ -25,7 +25,7 @@ pipeline {
         always {
           junit 'test-reports/results.xml'
         }
-       
+       stage ('Deploy') {steps { sh '/var/lib/jenkinss/.local/bin/eb deploy' } }
       }
     }
     
