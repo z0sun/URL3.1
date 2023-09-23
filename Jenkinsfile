@@ -28,6 +28,6 @@
       
       }
     }
-   stage ('Deploy') {steps { sh '/var/lib/jenkinss/.local/bin/eb deploy' } }
+   stage ('Deploy') { steps { sh '/var/lib/jenkinss/.local/bin/eb deploy' } }
   }
  }
