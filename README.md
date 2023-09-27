@@ -1,3 +1,5 @@
+Incident Report
+-----------------------------------------
 The Story
 -----------------------------------------
 We’re a tech start-up company with a URL shortener tool. We have a SLA with Nike to provide them access to our URL shortener. In the SLA, we are only allowed 20 minutes of downtime a year. If anything happens to the URL shortener, we must communicate any incidents to Nike.
