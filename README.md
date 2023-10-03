@@ -10,14 +10,25 @@ A new hire was tasked with updating the URL shortener. The new hire committed ve
 
 # Resolution
 
-* Created a branch of version 2 for trouble shooting the issue.  
-* Rolledback to version 1 last working commit, to ensure the SLA is met and we don't exceed alotted downtime.
+* To meet the SLA aggreement and avoid downtime the best resolution to this issue was to Rollback to version 1 of the application to ensure availability. Below were the rollback steps:
+  ```
+    git checkout 4707109
+    git switch main
+    git checkout 4707109 .
+    git log --oneline
+    git status
+    git add
+    git add .
+    git commit -m "Rollback to Version 1 fom 2"
+    git push
+  ```
+* Next, I created a branch of version 2 for troubleshooting the issue.  
 
 # Post Incident Troubleshooting
 
-* Version 2 of the application contained two primary issues.
-  - on line 20 of the application.py file, the JSON method was fixed from `json.loads()` to `json.load()`
-  - the the route method was fixed from `app.routes(/)` to `app.route(/)`
+* Rolling back the application to Version 2 highlighted two primary issues.
+  - on line 20 of the application.py file, the JSON method was fixed from `json.loads()` to `json.load()` 
+
 
 # Next Steps
 
