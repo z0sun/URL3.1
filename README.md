@@ -26,15 +26,22 @@ A new hire was tasked with updating the URL shortener. The new hire committed ve
 
 # Post Incident Troubleshooting
 
-* Rolling back the application to Version 2 highlighted two primary issues.
+* Rolling back the application to Version 2 highlighted a few issues that I was able to fix.
   - on line 20 of the application.py file, the JSON method was fixed from `json.loads()` to `json.load()` 
+<img width="1138" alt="Screen Shot 2023-10-03 at 3 18 44 AM" src="https://github.com/z0sun/URL3.1/assets/135557197/2b1ab781-c380-4185-9031-18c38fca6c84">
+
+* Line 9 of the application.py `@app.routes('/')` was fixed to `@app.route('/')`
+<img width="1286" alt="Screen Shot 2023-10-03 at 3 22 53 AM" src="https://github.com/z0sun/URL3.1/assets/135557197/8a452be4-da16-4d3f-9258-4a83b0b7487e">
+
+* Line 6 of the test_app.py was fixed from `assert greeting == "Hi jeff"` to `assert greeting == "Hi jeff "`
+<img width="1149" alt="Screen Shot 2023-10-03 at 3 18 27 AM" src="https://github.com/z0sun/URL3.1/assets/135557197/b5bf6b98-7b19-4f3f-9946-abcb3781e3c4">
 
 
 # Next Steps
 
 To prevent future incidents: 
 - require pull request and approvals to prevent direct commits.
-- require permissions for live depolyments
+- require permissions for live depolyments.
 - add monitoring to build/testing stages to keep track of all changes and affects of those changes earlier in the CI/CD pipeline.
 
 
