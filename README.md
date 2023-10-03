@@ -36,7 +36,10 @@ A new hire was tasked with updating the URL shortener. The new hire committed ve
 * Line 6 of the test_app.py was fixed from `assert greeting == "Hi jeff"` to `assert greeting == "Hi jeff "`
 <img width="1149" alt="Screen Shot 2023-10-03 at 3 18 27 AM" src="https://github.com/z0sun/URL3.1/assets/135557197/b5bf6b98-7b19-4f3f-9946-abcb3781e3c4">
 
+
+
 After these updates to Version 2 were made I then performed a RollBack to Version 1 to make these updates
+
 <img width="534" alt="Screen Shot 2023-10-03 at 3 12 45 AM" src="https://github.com/z0sun/URL3.1/assets/135557197/f1cdc168-5d7d-4faf-a15b-751724d1450d">
 
 # Next Steps
